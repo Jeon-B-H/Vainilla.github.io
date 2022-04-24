@@ -1,0 +1,267 @@
+/* position of entire center-bottom-regiom */
+.center-bottom-region {
+    width: 100%;
+    
+    position: absolute;
+    top: 65%;
+}
+
+.Ask-Main-focus-working-children {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/* design of center-bottom-children:first-child */
+.Ask-Main-focus-working-children:first-child span{
+    color: white;
+    font-weight: 800;
+    font-size: 200%;
+}
+
+/* position of center-bottom-children:last-child */
+.Ask-Main-focus-working-children:last-child {
+    margin-top: 1%;
+}
+
+/* design of center-bottom-children:last-child */
+#Answer-main-Focus-Work{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#Answer-main-Focus-Work input{
+    width: 27.5%;
+    height: 150%;
+    padding: 0%;
+
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 200%;
+    color: white;
+
+    border: none;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+.Main-focus-working-children {
+    display: flex;
+    justify-content: center;
+}
+
+.Main-focus-working-children:last-child {
+    margin-top: 0.5%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.Main-focus-working-children span:not(.Main-focus-working-span) {
+    font-size: 150%;
+    color: white;
+    font-weight: 600;
+}
+
+.Main-focus-working-span {
+    font-size: 200%;
+    color: white;
+    font-weight: 600;
+    margin: 0px 9px;
+}
+
+
+/* CSS of id="done-button-div" & id="main-focus-work-div" & id="other-functions-div" */
+#done-button-div{
+    display: flex; 
+    justify-content: flex-end;
+    flex-grow: 1;
+    flex-basis: 10%;
+    height: 100%;
+    margin-left: -6px
+}
+
+#other-functions-div {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+    flex-basis: 10%;
+    height: 100%;
+}
+
+/* position of <div class="Main-focus-working-children__content"> */
+.Main-focus-working-children__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50px;
+    width: 100%;
+    text-align: center;
+
+    text-align: center;
+    position: relative;
+}
+
+/* position of done-button */
+#done-button-span {
+    display: flex;
+    align-items: center;
+    padding-right: 6px;
+}
+
+#done-button-span form {
+    display: flex;
+    align-content: center;
+}   
+
+#check-sign {
+    z-index: -1;
+    position: absolute;
+    top: -15%;
+    left: 15%;
+}   
+
+.done-button {
+    position: relative;
+}
+
+/* design of done-button */
+input[id="done-button"] + label {
+    width: 20px;
+    height: 20px;
+    border-radius: 10%;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+
+input[id="done-button"] {
+    display: none;
+}
+
+#check-sign {
+    font-size: 100%;
+}   
+
+.done-work-line {
+    text-decoration-line: line-through;
+}
+
+
+
+
+/* position of other functions */
+#other-functions{
+    display: inline-block;
+    width: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+}
+
+#other-functions > i:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    width: 27px;
+    height: 27px;
+    cursor: pointer;
+}
+
+
+
+
+/* position of message-other-functions */
+.message-other-functions {
+    /* position of bubble */
+    position: absolute;
+    bottom: -105px;
+    right: -160px;
+
+    /* design of bubble */
+    background-color: white;
+    height: 70px;
+    width: 200px;
+    border-radius: 10px;
+
+    padding: 10px 0px;
+}
+
+.message-other-functions-pointer {
+    width: 0; 
+    height: 0; 
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    border-left: 10px solid white;
+
+    position: absolute;
+    left: 20px;
+    top: -14px;
+    transform: rotateZ(-90deg);
+}
+
+
+/* content of message-other-functions */
+.message-other-functions__contents {
+    height: 100%;
+}
+
+.message-other-functions__contents form{
+    /* size */
+    height: 100%;
+
+    /* position */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* position of element of other-functions-button */
+.other-functions-button {
+    /* position */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 7px 0px;
+
+    /* design */
+    border: none;
+    background-color: white;
+}
+
+.other-functions-button:hover {
+    background-color: #9e9e9e;
+    cursor: pointer;
+}
+
+.other-functions-button:active {
+    background-color: #bdbdbd;
+    cursor: pointer;
+}
+
+.other-function-icon {
+    margin-right: 15px;
+    margin-left: 10px;
+    width: 20px;
+}
+
+.other-functions-button span {
+    display: flex;
+    justify-content: center;
+}
+
+/* design of element of other-functions-button  */
+#other-function-name {
+    color: black;
+    font-size: 15px;
+}

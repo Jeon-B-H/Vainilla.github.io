@@ -1,0 +1,24 @@
+/* position of loginButton */
+#loginButton {
+    position: absolute;
+    bottom: -45px;
+}
+
+/* design of LoginButton */
+#loginButton button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: #9fa8da;
+}
+
+#loginButton button:hover {
+    background-color: #c5cae9;
+    cursor: pointer;
+}
+
+#loginButton button:active {
+    background-color: #7986cb;
+    cursor: pointer;
+}

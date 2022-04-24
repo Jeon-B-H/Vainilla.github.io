@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="top-row">
+        <div class="top-left"></div>
+        <div class="top-center"></div>
+        <div class="top-right">
+            <div id="weather">
+                <span id="weather-icon"></span>
+                <span id="weather-content">
+                    <div class="weather-content">
+                        <span></span>
+                        <span class="hidden">&#8451;</span>
+                    </div>
+                    <div class="weather-content">
+                        <span></span>
+                    </div>
+                </span>
+            </div>
+            <div id="loginButton"></div>
+        </div>
+    </div>
+    <div class="region-center">
+        <div class="center-top-region">
+            <div class="time-container">
+                <span id="time-span"></span>
+            </div>
+            <div class="greeting-container">
+                <span class="greeting-span"></span>
+                <span class="greeting-span"></span>
+            </div>
+        </div>
+        <div class="center-bottom-region">
+            <div class="Ask-Main-focus-working">
+                <div class="Ask-Main-focus-working-children">
+                    <span>What is your main focus for today?</span>
+                </div>
+                <div class="Ask-Main-focus-working-children">
+                    <form id="Answer-main-Focus-Work">
+                        <input type="text" />
+                    </form>
+                </div>
+            </div>
+            <div class="Show-Main-focus-working hidden">
+                <div class="Main-focus-working-children">
+                    <span>Today</span>
+                </div>
+                <div class="Main-focus-working-children">
+                    <div class="Main-focus-working-children__content">
+                        <div id="done-button-div">
+                            <span id="done-button-span" class="hidden">
+                                <form class="done-button">
+                                    <input id="done-button" type="checkbox"/>
+                                    <label for="done-button"></label>
+                                    <span id="check-sign" class="hidden">
+                                        <i class="fas fa-check"></i>
+                                    </span>
+                                </form>
+                            </span>
+                        </div>
+                        <div id="main-focus-work-div">
+                            <span class="Main-focus-working-span"></span>
+                        </div>
+                        <div id="other-functions-div">
+                            <span id="other-functions" class="hidden">
+                                <i class="fas fa-ellipsis-h"></i>
+                                <div class="message-other-functions hidden">
+                                    <div class="message-other-functions-pointer">
+                                    </div>
+                                    <div class="message-other-functions__contents">
+                                        <form>
+                                            <button class="other-functions-button">
+                                                <span class="other-function-icon"><i class="fas fa-pen fa-sm" style='color: black'></i></span>
+                                                <span id="other-function-name">Edit</span>
+                                            </button>
+                                            <button class="other-functions-button">
+                                                <span class="other-function-icon"><i class="fas fa-times fa-sm" style='color: black'></i></span>
+                                                <span id="other-function-name">Clear</span>
+                                            </button>
+                                        </form>
+                                            </button>
+                                        </form>    
+                                        
+                                    </div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </div> 
+    <div class="bottom-row">
+        <div class="bottom-left">
+            <span id="currentLocation"></span>
+        </div>
+        <div class="bottom-center">
+            <p>
+                <span class="quote-span"></span><br />
+                <span class="quote-span"></span>
+            </p>
+        </div>
+        <div class="bottom-right">
+            <div id="todo-bubble" class="hidden">
+                <div id="todo-title">
+                    <span>Todo list</span>
+                </div>
+                <div id="todo-content">
+                    <ul id="todo-ul" class="hidden"></ul>
+                </div>
+            </div>
+            <div id="todo-bubble-pointer" class="hidden">            
+            </div>
+            <span id="todo-span">To do</span>
+        </div>
+    </div> 
+
+    <script src="https://kit.fontawesome.com/aa6951ade4.js" crossorigin="anonymous"></script>
+    <script src="javascript/website/web__background.js"></script>
+    <script src="javascript/website/Quotes .js"></script>
+    <script src="javascript/website/clock.js"></script>
+    <script src="javascript/website/gettingUserID.js"></script>
+    <script src="javascript/website/mainFocusWork.js"></script>
+    <script src="javascript/website/todo.js"></script>
+    <script src="javascript/website/weather.js"></script>
+    <script src="javascript/website/goToLogin.js"></script>
+</body>
+</html>

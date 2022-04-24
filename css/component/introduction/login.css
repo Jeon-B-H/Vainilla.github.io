@@ -1,0 +1,42 @@
+/* CSS of  <div id="logo" class="logo__login">*/
+.logo__login {
+    margin-bottom: 15%;
+}
+
+.logo__login img{
+    width: 15%;
+    height: 15%;
+}
+
+/* CSS of submitButton */
+.SubmitButton__login {
+    margin-top: 10%;
+}
+
+
+/* CSS of find a Password */
+#function__findPassword {
+    /* position */
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3%;
+}
+
+#function__findPassword span{
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 800;
+
+    transition: all .5s ease-in-out;
+}
+
+#function__findPassword span:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#function__findPassword span:active {
+    opacity: 0.3;
+    cursor: pointer;   
+}
+

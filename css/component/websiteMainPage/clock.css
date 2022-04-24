@@ -1,0 +1,24 @@
+/* position of clock */
+.center-top-region {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+}
+
+.time-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* design of clock */
+.time-container #time-span {
+    font-size: 700%;
+    font-weight: 800;
+    color: white;
+}
+
+
+
+
+

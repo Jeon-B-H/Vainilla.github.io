@@ -1,0 +1,161 @@
+/* ******* class="bottom" ******* */
+/* position of <div class="bottom-left"> */
+.bottom-left {
+    flex-grow: 1;
+    flex-basis: 10%;
+}
+
+/* position of <div class="bottom-right"> */
+.bottom-right {
+    /* ratio of div */
+    flex-grow: 1;
+    flex-basis: 10%;
+
+    /* position of span */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    /* position : relative */
+    position: relative;
+}
+
+
+
+
+/* ******* <span id="todo-span">  ******* */
+/* design of <span> */
+#todo-span {
+    color: white;
+    font-weight: 800;
+
+    display: flex;
+    justify-content: flex-end;
+
+    margin-right: 40px;
+}
+
+#todo-span:hover {
+    cursor: pointer;
+}
+
+
+
+
+/* ******* <div id="todo-bubble"> & <div id="todo-bubble-pointer">******* */
+#todo-bubble {
+    /* position of bubble */
+    position: absolute;
+    right: 20px;
+    bottom: 40px;
+
+    /* size of bubble */
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 20px;
+
+    /* padding or margin */
+    padding: 25px 20px;
+}
+
+#todo-bubble-pointer {
+    /* design of pointer */
+    width: 0; 
+    height: 0; 
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-top: 10px solid white;
+
+    /* position of pointer */
+    position: absolute;
+    bottom: 30px;
+    right: 55px;
+}
+
+/* ******* <div id="todo-content"> ******* */
+#todo-content {
+    /* size */
+    height: 94%;
+
+    /* position of element */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* position */
+    position: relative;
+}
+
+/* ******* <div id="todo-title"> ******* */
+#todo-title span {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+/* ******* <div class="todo-content-children"> ******* */
+.todo-content-children:nth-child(2){
+    margin-bottom: 30px;
+}
+
+.First-stage-subtitle {
+    font-weight: 700;
+    color: #90a4ae;
+}
+
+.First-stage-form input {
+    /* size */
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+
+    /* design */
+    border: none;
+    background-color: #607d8b;
+    font-weight: 700;
+
+    transition: all .5s ease-in-out;
+}
+
+.First-stage-form input:hover {
+    cursor: pointer;
+    background-color: #90a4ae;
+}
+
+.todo-content-div {
+    /* position */
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.newTodo-enter-form input {
+    font-size: 17px;
+    border: none;
+    color: #607d8b;
+}
+
+#todo-ul {
+    width: 100%;
+    height: 80%;
+}
+
+.todo-li {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-li button {
+    background-color: #9fa8da;
+    border: none;
+    width: 27px;
+    height: 27px;
+    border-radius: 5px;
+}
+
+.todo-li span {
+    font-weight: 700;
+    color: #7986cb;
+}

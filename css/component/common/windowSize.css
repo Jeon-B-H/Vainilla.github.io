@@ -1,0 +1,26 @@
+#notice_of_windowSize {
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    right: 25%;
+}
+
+#notice_of_windowSize a {
+    display: block;
+    margin-top: 20%;
+
+    display: flex;
+    justify-content: center;
+}
+
+#windowSize_icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+#notice_of_windowSize span {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}

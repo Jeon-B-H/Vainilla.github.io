@@ -1,0 +1,25 @@
+/* position of quote */
+.bottom-row {
+    /* width of div */
+    width: 100%;
+
+    /* position of div & spam */
+    position: absolute;
+    bottom: 3%;
+
+    display: flex;
+    justify-content: center;
+}
+
+/* design of quote */
+.quote-span {
+    color: white;
+    font-size: 17px;
+    font-weight: 800; 
+}
+
+/* position of span & anchor */
+.bottom-center p{
+    text-align: center;
+    line-height: 195%;
+}

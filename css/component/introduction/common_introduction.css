@@ -1,0 +1,209 @@
+/* CSS of <div id="login"> */
+#login {
+    /* position of <div id="login"> */
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: 30%;
+    right: 30%;
+
+    /* design of <div id="login"> */
+    background-color: rgba(0,0,0,0.5);
+    padding: 8% 3%;
+}
+
+@media screen and (max-width:1400px) {
+    #login {
+        padding-top: 15%;
+    }
+}
+
+
+
+
+/* CSS of <span id="login__title"> */
+#login__title {
+    /* position:absolute */
+    position: absolute;
+    top: 5%;
+    left: 5%;
+
+    /* design of font */
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 800;
+    font-size: 25px;
+}
+
+#login__title span:last-child {
+    margin-left: 25px;
+}
+
+.current_page {
+    /* font design */
+    color: rgba(255, 255, 255, 0.9);
+    /* bottom line */
+    padding-bottom: 10px;
+    border-bottom: 2px solid #ef547c;
+}
+
+#login__title span {
+    transition: all .5s ease-in-out;
+}
+
+#login__title span:hover {
+    cursor: pointer;
+}
+
+
+
+
+/* CSS of logo */
+#logo {
+    /* position of logo */
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+/* CSS of <div id="login__content"> */
+.position__content {
+    margin-top: 6.5%;
+    margin-bottom: 10%;
+}
+
+
+
+
+/* Input User ID & Password */
+.inputInfo {
+    /* size of <div class="inputInfo"> */
+    padding: 35px 0px;
+    margin-bottom: 25px;
+
+    /* design <div class="inputInfo"> */
+    background-color: rgba(81, 76, 91, 0.5);
+    border-radius: 15px;
+
+    /* position: relative */
+    position: relative;
+}
+
+.inputInfo input {
+    /* position of input */
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+    /* design of input */
+    width: 85%;
+    padding: 20px 0px;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+    background-color: rgba(81, 76, 91, 0);
+
+    /* font of input */
+    font-size: 25px;
+    opacity: 0.9;
+    color: white;
+}
+
+
+
+
+/* CSS of icon */
+.inputInfo i:first-child {
+    /* size of icon */
+    font-size: 25px;
+    
+    /* position of icon */
+    position: absolute;
+    left: 4.5%;
+    bottom: 33%;
+
+    /* design of icon */
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.inputInfo i:last-child {
+    /* size of icon */
+    font-size: 170%;
+
+    /* position of icon */
+    position: absolute;
+    right: 4.5%;
+    bottom: 33%;
+
+    /* design of icon */
+    color:rgba(255, 255, 255, 0.7);
+
+    /* transition */
+    transition: all .5s ease-in-out;
+}
+
+.inputInfo i:last-child:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.inputInfo i:last-child:active {
+    cursor: pointer;
+    opacity: 0.1;
+}
+
+
+
+
+/* CSS of checkButton */
+.checkButton {
+    display: flex;
+    align-items: center;
+}
+
+.checkButton input {
+    width: 17px;
+    height: 17px;
+}
+
+.checkButton span {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 800;
+    margin-left: 10px;
+}
+
+
+
+
+/* CSS of sumbit button */
+#SubmitButton {
+    /* position of login button */
+    display: flex;
+    justify-content: center;
+}
+
+.SubmitButton {
+    padding: 3% 33.5%;
+
+    /* size of button */
+    border-radius: 20px;
+
+    /* design of button */
+    border: none;
+    font-size: 25px;
+    background-color: #cf3e62;
+
+    /* transition of button */
+    transition: all 0.5s ease-in-out;
+}
+
+.SubmitButton:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.SubmitButton:active {
+    cursor: pointer;
+    opacity: 0.4;
+}
+

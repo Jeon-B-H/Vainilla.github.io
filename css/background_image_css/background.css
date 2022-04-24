@@ -1,0 +1,30 @@
+#background_image {
+    height: 99.8vh;
+    width: 100%;
+    
+    z-index: -100;
+}
+
+/* CSS of label */
+#byLabel {
+    /* position of label */
+    position: absolute;
+    bottom: 15px;
+    right: 45.3%;
+}
+
+#byLabel span {
+    /* design of label */
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 800;
+}
+
+
+/* CSS of background image of main page */
+.backgroundImage__website {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+}

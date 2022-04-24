@@ -1,0 +1,70 @@
+/* ******* current location ******* */
+#currentLocation {
+    /* design */
+    color: #c5cae9;
+    font-weight: 800;
+
+    /* position */
+    position: absolute;
+    margin-left: 35px;
+    bottom: 0px;
+}
+
+.bottom-left {
+    position: relative;
+}
+
+
+/* ******* <div class="top-row"> ******* */
+.top-row {
+     /* width of div */
+     width: 100%;
+
+     /* position of div & spam */
+     position: absolute;
+     top: 3%;
+ 
+     display: flex;
+     justify-content: center;
+}
+
+.top-left {
+    width: 33%;
+}
+
+.top-center {
+    width: 33%;
+}
+
+.top-right {
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+/* ******* <div id="weather"> ******* */
+#weather {
+    display: flex;
+    align-items: center;
+}
+
+#weather span {
+    color: #9fa8da;
+}
+
+#weather-icon {
+    margin-right: 10px;
+}
+
+#weather-icon i {
+    font-size: 35px;
+}
+
+.weather-content {
+    font-weight: 700;
+}
+
+.weather-content:last-child {
+    margin-top: 5px;
+}

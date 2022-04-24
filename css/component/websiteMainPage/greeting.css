@@ -1,0 +1,19 @@
+/* position of greeting */
+.greeting-container {
+    margin-top: 2%;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* design of greeting */
+.greeting-span {
+    font-weight: 800;
+    color: white;
+    font-size: 250%;
+}
+
+.greeting-span:last-child {
+    margin-left: 1%;
+}

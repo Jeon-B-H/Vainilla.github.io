@@ -1,0 +1,16 @@
+/* CSS of account icon */
+.logo__register img{
+    width: 19%;
+    height: 19%;
+}
+
+.logo__register {
+    margin-bottom: 8%;
+}
+
+
+
+/* CSS of submitButton */
+.SubmitButton__register {
+    margin-top: 8%;
+}

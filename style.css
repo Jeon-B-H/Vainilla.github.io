@@ -1,0 +1,24 @@
+/* Base CSS */
+@import "css/base_css/reset.css";
+
+/* common CSS */
+@import "css/background_image_css/background.css";
+@import "css/component/common/variable.css";
+@import "css/component/common/windowSize.css";
+
+/* component */
+/* 1. introduction */
+@import "css/component/introduction/login.css";
+@import "css/component/introduction/register.css";
+@import "css/component/introduction/common_introduction.css";
+@import "css/component/introduction/findPassword.css";
+
+
+/* 2. website main page */
+@import "css/component/websiteMainPage/quotes.css";
+@import "css/component/websiteMainPage/clock.css";
+@import "css/component/websiteMainPage/greeting.css";
+@import "css/component/websiteMainPage/focus_work.css";
+@import "css/component/websiteMainPage/todo.css";
+@import "css/component/websiteMainPage/weather.css";
+@import "css/component/websiteMainPage/gotologin.css";
